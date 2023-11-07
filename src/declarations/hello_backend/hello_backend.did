@@ -1,0 +1,10 @@
+service : {
+  addinCompletedListHello: (text) -> ();
+  addinPendingListHello: (text) -> ();
+  getCompletedtodoHello: () -> (vec text);
+  getCurrentUserHello: () -> (text);
+  getPendingtodoHello: () -> (vec text);
+  isCorrectPasswordHello: (text, text) -> (text);
+  isUsernameTakenHello: (text) -> (bool) query;
+  registerUserHello: (text, text) -> (bool);
+}
